@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes App</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Playfair+Display:wght@400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+
+    <!-- Css -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+    <div class="container border border-0 rounded shadow-lg" style="margin-top: 8rem;">
+
+        <div class="inner d-flex justify-content-center flex-column align-items-center text-center pb-5 px-4">
+
+            <!-- title -->
+            <h1 class="fw-bold mt-5"
+                style="font-size: 80px; color: rgb(0, 0, 0); font-family: Playfair Display, serif;"><span
+                    style="color: #A70117;">Quote</span> of
+                the Day
+            </h1>
+
+
+            <p style="font-family: Assistant, sans-serif; font-size: 35px; color:rgb(0, 0, 0);" class="mt-5">Press the
+                button
+                below to recieve a random <span style="color: #A70117;">quote</span>!</p>
+
+            <button class="button-30 px-5" role="button" onclick="getRndInteger()">New <span style="color: #A70117;"> Quote</span></button>
+
+            <div id="myData" class="my-5 fw-bold px-5 py-3 rounded-5" style=" font-family: Playfair Display, serif; color: #A70117;"></div>
+        </div>
+
+    </div>
+
+
+    <script src=" script.js">
+    </script>
+</body>
+
+</html>
